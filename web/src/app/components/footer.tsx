@@ -25,8 +25,8 @@ export const Footer: FC = () => {
       </div>
 
       <div className="flex items-center justify-center flex-wrap gap-x-4 gap-y-2 mt-2 text-zinc-400">
-        <a className="hover:text-zinc-950" href="https://lepton.ai/">
-          Lepton Home
+        <a className="hover:text-zinc-950" href="https://www.zhisousou.com/">
+          ZHISOUSOU Home
         </a>
         <a
           className="hover:text-zinc-950"
