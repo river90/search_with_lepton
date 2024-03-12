@@ -380,7 +380,7 @@ class RAG(Photon):
         Initializes photon configs.
         """
         # First, log in to the workspace.
-        leptonai.api.workspace.login()
+        #leptonai.api.workspace.login()
         self.backend = os.environ["BACKEND"].upper()
         if self.backend == "LEPTON":
             self.leptonsearch_client = Client(
@@ -423,10 +423,10 @@ class RAG(Photon):
             max_workers=self.handler_max_concurrency * 2
         )
         # Create the KV to store the search results.
-        logger.info("Creating KV. May take a while for the first time.")
-        self.kv = KV(
-            os.environ["KV_NAME"], create_if_not_exists=True, error_if_exists=False
-        )
+        #logger.info("Creating KV. May take a while for the first time.")
+        #self.kv = KV(
+        #    os.environ["KV_NAME"], create_if_not_exists=True, error_if_exists=False
+        #)
         # whether we should generate related questions.
         self.should_do_related_questions = to_bool(os.environ["RELATED_QUESTIONS"])
 
