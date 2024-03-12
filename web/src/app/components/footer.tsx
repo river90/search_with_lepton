@@ -8,6 +8,7 @@ export const Footer: FC = () => {
       </div>
       <div className="text-zinc-400">
         If you have any questions, please contact liuxin’s email address neu_liuxin@163.com
+
       </div>
     </div>
   );
