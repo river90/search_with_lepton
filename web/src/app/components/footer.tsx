@@ -9,6 +9,9 @@ export const Footer: FC = () => {
       <div className="text-zinc-800">
         If you have any questions, please contact
       </div>
+      <div className="text-zinc-800">
+        liuxin’s email address neu_liuxin@163.com.
+      </div>
     </div>
   );
 };
